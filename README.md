@@ -15,6 +15,21 @@ Pikup is a React Native/Expo application. The app features dual interfaces for c
 └── navigation/                # Tab navigator configurations
 ```
 
+
+## Issues and also Next Steps
+- Mapbox sdk needs to be properly configured, currently has issues with the cloud building and the sourcing in the soruce files at build time
+- Insurance needs to be tested along with driver side once insurance is in and mapbox
+- Stripe identity needs to be reimplemented since its commented out while server isnt running
+- Put back in the document picker module for the claims screen since it was giving a error si i cmmented out for now
+
+## Services / API's Needed
+- Firebase database
+- Render server with env variables needed
+- Stripe Keys
+- Google Map Key
+- Google Gemini Key
+- Mapbox Download and Public Key
+
 ## Key Context Providers
 
 ### AuthContext (`contexts/AuthContext.js`)
