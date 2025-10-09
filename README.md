@@ -15,21 +15,6 @@ Pikup is a React Native/Expo application. The app features dual interfaces for c
 └── navigation/                # Tab navigator configurations
 ```
 
-
-## Issues and also Next Steps
-- Mapbox sdk needs to be properly configured, currently has issues with the cloud building and the sourcing in the soruce files at build time
-- Insurance needs to be tested along with driver side once insurance is in and mapbox
-- Stripe identity needs to be reimplemented since its commented out while server isnt running
-- Put back in the document picker module for the claims screen since it was giving a error si i cmmented out for now
-
-## Services / API's Needed
-- Firebase database
-- Render server with env variables needed
-- Stripe Keys
-- Google Map Key
-- Google Gemini Key
-- Mapbox Download and Public Key
-
 ## Key Context Providers
 
 ### AuthContext (`contexts/AuthContext.js`)
@@ -278,6 +263,38 @@ npx eas build --platform ios --profile production
 - **Payment Security**: Stripe handles all sensitive payment data
 - **Firebase Security**: Uses Firebase security rules
 - **Authentication**: Secure token-based authentication
+
+## 📱 Screen Photos
+
+### Customer Screens
+<div align="center">
+  <img src="assets/homescreen.png" alt="Home Screen" width="200"/>
+  <img src="assets/details.png" alt="Order Details" width="200"/>
+  <img src="assets/location.png" alt="Location Tracking" width="200"/>
+</div>
+
+<div align="center">
+  <img src="assets/price.png" alt="Pricing" width="200"/>
+  <img src="assets/vehicle.png" alt="Vehicle Selection" width="200"/>
+</div>
+
+### Driver Screens
+<div align="center">
+  <img src="assets/driverhome.png" alt="Driver Home" width="200"/>
+  <img src="assets/driverprofile.png" alt="Driver Profile" width="200"/>
+  <img src="assets/earnings.png" alt="Driver Earnings" width="200"/>
+</div>
+
+### Authentication & Setup
+<div align="center">
+  <img src="assets/login.png" alt="Login Screen" width="200"/>
+  <img src="assets/login2.png" alt="Login Screen 2" width="200"/>
+  <img src="assets/roleselect.png" alt="Role Selection" width="200"/>
+</div>
+
+<div align="center">
+  <img src="assets/offline.png" alt="Offline Mode" width="200"/>
+</div>
 
 ##  Key Features
 
